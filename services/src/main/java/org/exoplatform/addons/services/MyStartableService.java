@@ -18,12 +18,17 @@ public class MyStartableService implements Startable {
 
   @Override
   public void start() {
+    int a=1;
+    int b=2;
+    int c=a+b;
     LOG.info("&&&&&&&&&&&& My Startable service started !");
-    /*PortalContainer portalContainer = (PortalContainer) ExoContainerContext.getCurrentContainer();
-    LOG.info("&&&&&&&&&&&& Getting an instance of MyService !");
+    PortalContainer portalContainer = (PortalContainer) ExoContainerContext.getCurrentContainer();
+    LOG.info("&&&&&&&&&&&& Getting an instance of MyService !"+c);
+    /*
     MyService myService = (MyService) portalContainer.getComponentInstance(MyService.class);
     LOG.info("&&&&&&&&&&&& Calling function call of MyService !");
-    myService.call();*/
+    myService.call();
+    */
   }
 
   @Override

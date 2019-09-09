@@ -38,4 +38,13 @@
             </init-params>
         </component-plugin>
     </external-component-plugins>
+    <component>
+        <type>org.exoplatform.addons.services.MyStartableService</type>
+    </component>
+    <component>
+        <type>org.exoplatform.addons.services.MyService</type>
+    </component>
+    <component>
+        <type>org.exoplatform.addons.services.MyServiceTest</type>
+    </component>
 </configuration>
